@@ -1,0 +1,10 @@
+<h1>Welcome to the URL Shortener!</h1>
+<%= form_for @category do |f| %>
+    <p>
+      <%= f.label :url %> <br />
+      <%= f.text_field :url %> <br />
+
+    </p>
+    <%= f.submit %>
+
+  <% end %>
